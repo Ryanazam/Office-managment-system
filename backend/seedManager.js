@@ -22,11 +22,6 @@ const seedAdmin = async () => {
             joiningDate: new Date()
         });
 
-        console.log('✅ Default Manager (Admin) Created Successfully!');
-        console.log('------------------------------------------------');
-        console.log('Email:    admin@company.com');
-        console.log('Password: password123');
-        console.log('------------------------------------------------');
         process.exit();
     } catch (err) {
         console.error(err);

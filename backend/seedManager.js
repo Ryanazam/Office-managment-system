@@ -16,7 +16,7 @@ const seedAdmin = async () => {
         const adminUser = await User.create({
             name: 'System Admin',
             email: 'admin@company.com',
-            password: 'password123',
+            password: '************',
             role: 'manager',
             department: 'Administration',
             joiningDate: new Date()
